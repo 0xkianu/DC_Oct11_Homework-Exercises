@@ -12,6 +12,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
+    
 }
 
 .header {
@@ -22,7 +23,7 @@ body {
     flex: 1 1 auto;
     background-color: purple;
     font-weight: 700;
-    flex-wrap: wrap;
+    
 }
 
 .reading-pane {
@@ -32,7 +33,7 @@ body {
     width: 100%;
     flex: 10 10 auto;
     background-color: aquamarine;
-    flex-wrap: wrap;
+    
 }
 
 .footer {
@@ -43,7 +44,7 @@ body {
     flex: 1 1 auto;
     background-color: coral;
     font-weight: 700;
-    flex-wrap: wrap;
+    
 }
 
 .column1 {
@@ -52,6 +53,7 @@ body {
     background-color: white;
     margin: 0 20px;
     padding: 0 5px;
+    
 }
 
 .column2 {
@@ -60,12 +62,33 @@ body {
     background-color: khaki;
     margin-right: 20px;
     padding: 0 10px;
+    
 }
 
 .paragraph1 {
     font-size: 14px;
+    
 }
 
 .paragraph2 {
-    font-size: 32px;
+    font-size: 18px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .paragraph2 {
+        font-size: 12px;
+        
+    }
+
+    .reading-pane {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        flex: 5 5 1 auto;
+        background-color: aquamarine;
+        
+    }
+
 }
