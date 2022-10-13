@@ -92,3 +92,21 @@ body {
     }
 
 }
+
+@media only screen and (max-width: 800px) {
+    .paragraph2 {
+        font-size: 11px;
+        
+    }
+
+    .reading-pane {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        flex: 5 5 1 auto;
+        background-color: aquamarine;
+        
+    }
+
+}
