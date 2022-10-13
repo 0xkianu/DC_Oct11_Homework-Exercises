@@ -1,0 +1,28 @@
+.container.cRed {
+    background-color: #ff5f5f;
+}
+
+.container.cBlue {
+    background-color: #5fafff;
+}
+
+.container.cYellow {
+    background-color: #ffff5f;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 50px;
+}

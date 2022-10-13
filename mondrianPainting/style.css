@@ -1,0 +1,81 @@
+.canvas {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 98vh;
+    width: 99vw;
+}
+
+* > div {
+    border: 3px solid black;
+}
+
+.small-column {
+    display: flex;
+    flex-direction: column;
+    width: 16.5%;
+    height: 100%;
+}
+
+.r-small {
+    display: flex;
+    height: 14.5%;
+}
+
+.r-med1 {
+    display: flex;
+    height: 20%;
+}
+
+.r-med2 {
+    display: flex;
+    height: 21%;
+}
+
+.r-med3 {
+    display: flex;
+    height: 25%;
+}
+
+.r-large {
+    display: flex;
+    height: 40%;
+}
+
+.large-column {
+    display: flex;
+    flex-direction: column;
+    width: 25.25%;
+    height: 100%;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.v-split {
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-cell {
+    flex: 1;
+    border-left: none;
+}

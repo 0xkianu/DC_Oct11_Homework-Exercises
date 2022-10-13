@@ -1,0 +1,33 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 300px;
+}
+
+.name-form, .price-form, .handle-form {
+    display: flex;
+}
+
+#name-span, #price-span, #handle-span {
+    margin-top: 5px;
+}
+
+button {
+    border: none;
+    border-radius: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+input {
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border: 2px solid #eeeeee;
+    width: 100%;
+}
+
+label {
+    background-color: #eeeeee;
+}

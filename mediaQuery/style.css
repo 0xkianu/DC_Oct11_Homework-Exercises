@@ -1,0 +1,70 @@
+.container.cRed {
+    background-color: #ff5f5f;
+}
+
+.container.cBlue {
+    background-color: #5fafff;
+}
+
+.container.cYellow {
+    background-color: #ffff5f;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 50px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .container.cRed {
+        background-color: green;
+    }
+    
+    .container.cBlue {
+        background-color: green;
+    }
+    
+    .container.cYellow {
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .container.cRed {
+        background-color: orange;
+    }
+    
+    .container.cBlue {
+        background-color: orange;
+    }
+    
+    .container.cYellow {
+        background-color: orange;
+    }
+}
+
+@media only screen and (min-width: 1281px) {
+    .container.cRed {
+        background-color: purple;
+    }
+    
+    .container.cBlue {
+        background-color: purple;
+    }
+    
+    .container.cYellow {
+        background-color: purple;
+    }
+}
